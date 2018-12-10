@@ -6,7 +6,7 @@
 ; of mRNA processing.
 
                .ORIG x4000
-;WE DONT NEED THIS LINE
+;Sorry you were right
 ; initialize the stack pointer
 
 LD R6 STACK
