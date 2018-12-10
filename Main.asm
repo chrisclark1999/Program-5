@@ -1,10 +1,12 @@
 ; Main.asm
-; Name: Christopher Clark
-; UTEid: cmc6954
+; Name: Christopher Clark, Andrew Whitaker
+; UTEid: cmc6954, maw5299
 ; Continuously reads from x4600 making sure its not reading duplicate
 ; symbols. Processes the symbol based on the program description
 ; of mRNA processing.
+
                .ORIG x4000
+ADD R0, R0, #0; random test line
 ; initialize the stack pointer
 
 LD R6 STACK
